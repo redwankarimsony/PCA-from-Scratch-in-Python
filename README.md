@@ -1,6 +1,11 @@
 # PCA-from-Scratch-in-Python
+## 2D Projection:
+![](./images/2d_projections.png)
+## 3D Projection
+![](./images/3d_projection.png)
+# Visualizing Eigenvalues
+![](./images/eigenvalues.png)
 
-![](images/2d_projections.jpg)
 
 The purpose of this repository is to provide a complete and simplified explanation of Principal Component Analysis, and especially to answer how it works step by step, so that everyone can understand it and make use of it, without necessarily having a strong mathematical background. 
 PCA is actually a widely covered method on the web, and there are some great articles about it, but only few of them go straight to the point and explain how it works without diving too much into the technicalities and the ‘why’ of things. That’s the reason why i decided to make my own post to present it in a simplified way. Before getting to the explanation, this post provides logical explanations of what PCA is doing in each step and simplifies the mathematical concepts behind it, as standardization, covariance, eigenvectors and eigenvalues without focusing on how to compute them.
