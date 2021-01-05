@@ -1,10 +1,9 @@
 # PCA-from-Scratch-in-Python
 
-The purpose of this repository is to provide a complete and simplified explanation of Principal Component Analysis, and especially to answer how it works step by step, so that everyone can understand it and make use of it, without necessarily having a strong mathematical background.
+![](images/2d_projections.jpg)
 
-PCA is actually a widely covered method on the web, and there are some great articles about it, but only few of them go straight to the point and explain how it works without diving too much into the technicalities and the ‘why’ of things. That’s the reason why i decided to make my own post to present it in a simplified way.
-
-Before getting to the explanation, this post provides logical explanations of what PCA is doing in each step and simplifies the mathematical concepts behind it, as standardization, covariance, eigenvectors and eigenvalues without focusing on how to compute them.
+The purpose of this repository is to provide a complete and simplified explanation of Principal Component Analysis, and especially to answer how it works step by step, so that everyone can understand it and make use of it, without necessarily having a strong mathematical background. 
+PCA is actually a widely covered method on the web, and there are some great articles about it, but only few of them go straight to the point and explain how it works without diving too much into the technicalities and the ‘why’ of things. That’s the reason why i decided to make my own post to present it in a simplified way. Before getting to the explanation, this post provides logical explanations of what PCA is doing in each step and simplifies the mathematical concepts behind it, as standardization, covariance, eigenvectors and eigenvalues without focusing on how to compute them.
 
 # WHAT IS PRINCIPAL COMPONENT ANALYSIS?
 Principal Component Analysis, or PCA, is a dimensionality-reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still contains most of the information in the large set.
@@ -102,3 +101,8 @@ So, as we saw in the example, it’s up to you to choose whether to keep all the
 In the previous steps, apart from standardization, you do not make any changes on the data, you just select the principal components and form the feature vector, but the input data set remains always in terms of the original axes (i.e, in terms of the initial variables).
 
 In this step, which is the last one, the aim is to use the feature vector formed using the eigenvectors of the covariance matrix, to reorient the data from the original axes to the ones represented by the principal components (hence the name Principal Components Analysis). This can be done by multiplying the transpose of the original data set by the transpose of the feature vector.
+
+# REFERENCES:
+*  [Steven M. Holland, Univ. of Georgia]: Principal Components Analysis
+*  [skymind.ai]: Eigenvectors, Eigenvalues, PCA, Covariance and Entropy
+*  [Lindsay I. Smith] : A tutorial on Principal Component Analysis
