@@ -92,10 +92,14 @@ So, the feature vector is simply a matrix that has as columns the eigenvectors o
 Example:
 
 Continuing with the example from the previous step, we can either form a feature vector with both of the eigenvectors v1 and v2:
+
 ![](https://builtin.com/sites/default/files/styles/ckeditor_optimize/public/inline-images/Principal%20Component%20Analysis%20eigen%20vectos.png)
 
+
 Or discard the eigenvector v2, which is the one of lesser significance, and form a feature vector with v1 only:
+
 ![](https://builtin.com/sites/default/files/styles/ckeditor_optimize/public/inline-images/Principal%20Component%20Analysis%20eigen%20vectors%202.png)
+
 
 Discarding the eigenvector v2 will reduce dimensionality by 1, and will consequently cause a loss of information in the final data set. But given that v2 was carrying only 4% of the information, the loss will be therefore not important and we will still have 96% of the information that is carried by v1.
 
